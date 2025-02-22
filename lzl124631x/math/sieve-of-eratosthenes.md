@@ -12,7 +12,7 @@ Then the next prime is `5`, we mark all its multiples as composite. Again, we sh
 
 And so on. Until we've visited all the numbers within the maximum number.
 
-![](../.gitbook/assets/Sieve\_of\_Eratosthenes\_animation.gif)
+![](../../.gitbook/assets/Sieve_of_Eratosthenes_animation.gif)
 
 ## Implementation
 
@@ -48,4 +48,4 @@ public:
 
 ## Reference
 
-* [https://en.wikipedia.org/wiki/Sieve\_of\_Eratosthenes](https://en.wikipedia.org/wiki/Sieve\_of\_Eratosthenes)
+* [https://en.wikipedia.org/wiki/Sieve\_of\_Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)

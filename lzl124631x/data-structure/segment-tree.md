@@ -4,9 +4,9 @@ Segment tree is a data structure that supports queries and update on intervals.
 
 It can be used for solving range query problems like finding minimum, maximum, sum, greatest common divisor, least common denominator in array in logarithmic time.
 
-![Segment Tree](../.gitbook/assets/image.png)
+![Segment Tree](../../.gitbook/assets/image.png)
 
-![Node values in a segment tree used in range sum query](../.gitbook/assets/image%20%281%29.png)
+![Node values in a segment tree used in range sum query](<../../.gitbook/assets/image (1).png>)
 
 Example range sum query problem:
 
@@ -17,7 +17,7 @@ given an array, you need to do the following operations:
 
 The `merge` operation can be `sum` or any operation that satisfies **associative law**.
 
-```text
+```
 merge(merge(a, b), c) = merge(a, merge(b, c))
 // Example
 max(max(a, b), c) = max(a, max(b, c))
@@ -26,7 +26,7 @@ gcd(gcd(a, b), c) = gcd(a, gcd(b, c))
 
 ## Implementation
 
-Here I use [307. Range Sum Query - Mutable \(Medium\)](https://leetcode.com/problems/range-sum-query-mutable/) as an example.
+Here I use [307. Range Sum Query - Mutable (Medium)](https://leetcode.com/problems/range-sum-query-mutable/) as an example.
 
 ```cpp
 // OJ: https://leetcode.com/problems/range-sum-query-mutable/
@@ -145,13 +145,12 @@ When we want to update an interval all at once, we need to use lazy propagation 
 
 ## Problems
 
-* [307. Range Sum Query - Mutable \(Medium\)](https://leetcode.com/problems/range-sum-query-mutable/)
-* [699. Falling Squares \(Hard\)](https://leetcode.com/problems/falling-squares/)
-* [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits \(Hard\)](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
+* [307. Range Sum Query - Mutable (Medium)](https://leetcode.com/problems/range-sum-query-mutable/)
+* [699. Falling Squares (Hard)](https://leetcode.com/problems/falling-squares/)
+* [1505. Minimum Possible Integer After at Most K Adjacent Swaps On Digits (Hard)](https://leetcode.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
 * [327. Count of Range Sum (Hard)](https://leetcode.com/problems/count-of-range-sum/)
 
 ## Reference
 
 * [https://leetcode.com/problems/range-sum-query-mutable/solution/](https://leetcode.com/problems/range-sum-query-mutable/solution/)
 * [https://leetcode.com/articles/a-recursive-approach-to-segment-trees-range-sum-queries-lazy-propagation/](https://leetcode.com/articles/a-recursive-approach-to-segment-trees-range-sum-queries-lazy-propagation/)
-

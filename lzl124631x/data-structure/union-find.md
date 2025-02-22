@@ -4,7 +4,7 @@
 
 ### Basic
 
-Note that there is a path compression in the `find` function. 
+Note that there is a path compression in the `find` function.
 
 The time complexity of one operation in `UnionFind` with `N` elements and path compression only is amortized `O(logN)`.
 
@@ -57,12 +57,11 @@ public:
 };
 ```
 
-
 ### Merge using Rank
 
 The time complexity of one operation in `UnionFind` with `N` elements, path compression and union by rank is amortized `O(alpha(N))` where `alpha(N)` is the inverse function of Ackermann function. Note that `O(alpha(N))` is even more efficient than `O(logN)`.
 
-![](./union-by-rank.png)
+![](../../data-structure/union-by-rank.png)
 
 ```cpp
 class UnionFind {
@@ -97,13 +96,13 @@ public:
 * [130. Surrounded Regions (Medium)](https://leetcode.com/problems/surrounded-regions/)
 * [200. Number of Islands (Medium)](https://leetcode.com/problems/number-of-islands/)
 * [737. Sentence Similarity II (Medium)](https://leetcode.com/problems/sentence-similarity-ii)
-* [924. Minimize Malware Spread \(Hard\)](https://leetcode.com/problems/minimize-malware-spread/)
-* [947. Most Stones Removed with Same Row or Column \(Medium\)](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
+* [924. Minimize Malware Spread (Hard)](https://leetcode.com/problems/minimize-malware-spread/)
+* [947. Most Stones Removed with Same Row or Column (Medium)](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/)
 * [952. Largest Component Size by Common Factor (Hard)](https://leetcode.com/problems/largest-component-size-by-common-factor/)
 * [959. Regions Cut By Slashes (Medium)](https://leetcode.com/problems/regions-cut-by-slashes/) **Split into sub-cells**
 * [990. Satisfiability of Equality Equations (Medium)](https://leetcode.com/problems/satisfiability-of-equality-equations/)
 * [1202. Smallest String With Swaps (Medium)](https://leetcode.com/problems/smallest-string-with-swaps/)
-* [1319. Number of Operations to Make Network Connected \(Medium\)](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
+* [1319. Number of Operations to Make Network Connected (Medium)](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
 
 ### Dynamic Connection
 
